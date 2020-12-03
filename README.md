@@ -5,6 +5,8 @@ Baseado em: https://github.com/iffy/electron-updater-example
 
 Necessário criar um token em: https://github.com/settings/tokens
 
+Altere o package.json para informar seu token e seu repositorio
+
 ```
 {
   "provider": "github",
