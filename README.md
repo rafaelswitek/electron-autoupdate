@@ -5,7 +5,9 @@ Baseado em: https://github.com/iffy/electron-updater-example
 
 Necessário criar um token em: https://github.com/settings/tokens
 
-Altere o package.json para informar seu token e seu repositorio
+Altere o package.json para informar seu token e seu repositório
+
+Caso seu repositório seja privado é necessário criar uma variável de ambiente chamada **GH_TOKEN**
 
 ```
 {
@@ -19,4 +21,4 @@ Altere o package.json para informar seu token e seu repositorio
 }
 ```
 
-Altere o version dentro de **package.json** e rode **npm run publish** para publicar no github, ai so fechar e abrir o programa para baixar a instalação.
+Altere o version dentro de **package.json** e rode **npm run publish** para publicar no github, ai só fechar e abrir o programa para baixar a instalação.
