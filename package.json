@@ -22,9 +22,9 @@
       "publish": [
         {
           "provider": "github",
-          "repo": "teste-update",
+          "repo": "electron-autoupdate",
           "owner": "rafaelswitek",
-          "token": "Personal access tokens",
+          "token": "9b857acc7d832e8b5e908e740ccc45882042cf32",
           "private": true,
           "releaseType": "release",
           "publishAutoUpdate": true
